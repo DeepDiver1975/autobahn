@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info>
+	<id>autobahn</id>
+	<name>wamp.ws integration</name>
+	<summary>Push events via wamp.ws</summary>
+	<description>
+		Use web-sockets to notify clients about etag changes
+	</description>
+	<licence>GPLv2</licence>
+	<author>Thomas Müller</author>
+	<version>0.0.1</version>
+	<types>
+		<filesystem/>
+	</types>
+
+	<namespace>Autobahn</namespace>
+
+	<dependencies>
+		<owncloud min-version="10.0" max-version="10.0" />
+	</dependencies>
+</info>
